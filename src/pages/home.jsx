@@ -43,7 +43,6 @@ export default function DemoHome(props) {
                 pagination={false}
                 dataSource={data}
                 columns={columns} />
-            {/* <Link to={'/demo'} className="nav-link">回到首页</Link> */}
         </div>
 
     </div>

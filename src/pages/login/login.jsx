@@ -42,13 +42,6 @@ export default function Login() {
 }
 
 function validLogin(name, pwd, history) {
-    // alert(name + " " + pwd)
-    // history.push({
-    //     pathname: 'home',
-    //     props: {
-    //         name
-    //     }
-    // })
 
     axios.post('https://localhost:44398/User/ValidateLogin', {
         username: name,
