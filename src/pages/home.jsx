@@ -18,7 +18,7 @@ export default function DemoHome(props) {
     ];
 
     useEffect(() => {
-        var userId = props.location.props.userId;
+        var userId= localStorage["ishareToken"]
         axios.get("https://localhost:44398/Events/ListEventsById", {
             params: {
               id: userId
